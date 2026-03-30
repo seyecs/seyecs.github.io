@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Silvereye Certifications (SEYECS)</title>
 
-  <meta name="description" content="BIS, EPR, EMI/EMC, WPC, BEE, CDSCO & compliance services in India. Fast approvals with SEYECS.">
+  <meta name="description" content="BIS, EPR, EMI/EMC, WPC, BEE, CDSCO, LMPC, FSSAI & compliance services in India.">
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f7fb;
     }
 
     header {
-      background: linear-gradient(135deg, #0d6efd, #004aad);
+      background: linear-gradient(135deg, #0d6efd, #002f6c);
       color: white;
       text-align: center;
       padding: 60px 20px;
@@ -27,8 +27,8 @@
     }
 
     header p {
-      font-size: 18px;
       margin-top: 10px;
+      font-size: 18px;
     }
 
     .btn {
@@ -37,7 +37,7 @@
       padding: 12px 20px;
       background: white;
       color: #0d6efd;
-      border-radius: 5px;
+      border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
     }
@@ -47,9 +47,14 @@
       text-align: center;
     }
 
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
     .services {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 20px;
       margin-top: 30px;
     }
@@ -57,27 +62,29 @@
     .card {
       background: white;
       padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-      transition: 0.3s;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
     }
 
     .card:hover {
-      transform: translateY(-5px);
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
 
     .card h3 {
       margin-bottom: 10px;
+      color: #002f6c;
     }
 
     .card a {
-      color: #0d6efd;
       text-decoration: none;
+      color: #0d6efd;
       font-weight: bold;
     }
 
     footer {
-      background: #222;
+      background: #002f6c;
       color: white;
       text-align: center;
       padding: 20px;
@@ -100,58 +107,61 @@
 
   <div class="services">
 
-    <div class="card">
-      <h3>BIS Certification</h3>
-      <a href="https://seyecs.com/services/product-compliance/bis-isi/">Learn More</a>
-    </div>
+    <!-- BIS -->
+    <div class="card"><h3>BIS Certification (ISI)</h3><a href="https://seyecs.com/services/product-compliance/bis-isi/">View</a></div>
+    <div class="card"><h3>BIS CRS Registration</h3><a href="https://seyecs.com/services/product-compliance/bis-crs/">View</a></div>
+    <div class="card"><h3>BIS FMCS</h3><a href="https://seyecs.com/services/product-compliance/bis-fmcs/">View</a></div>
 
-    <div class="card">
-      <h3>EPR Compliance</h3>
-      <a href="https://seyecs.com/services/waste-management-india/epr-e-waste/">Learn More</a>
-    </div>
+    <!-- Testing -->
+    <div class="card"><h3>EMI/EMC Testing</h3><a href="https://seyecs.com/services/product-testing/emi-emc-testing/">View</a></div>
+    <div class="card"><h3>RF Testing</h3><a href="https://seyecs.com/services/product-testing/rf-testing/">View</a></div>
+    <div class="card"><h3>Safety Testing</h3><a href="https://seyecs.com/services/product-testing/safety-testing/">View</a></div>
 
-    <div class="card">
-      <h3>EMI/EMC Testing</h3>
-      <a href="https://seyecs.com/services/product-testing/emi-emc-testing/">Learn More</a>
-    </div>
+    <!-- EPR -->
+    <div class="card"><h3>EPR E-Waste</h3><a href="https://seyecs.com/services/waste-management-india/epr-e-waste/">View</a></div>
+    <div class="card"><h3>EPR Plastic Waste</h3><a href="https://seyecs.com/services/waste-management-india/epr-plastic-waste/">View</a></div>
+    <div class="card"><h3>EPR Battery Waste</h3><a href="https://seyecs.com/services/waste-management-india/epr-battery-waste/">View</a></div>
 
-    <div class="card">
-      <h3>WPC Approval</h3>
-      <a href="https://seyecs.com/services/product-compliance/wpc-eta/">Learn More</a>
-    </div>
+    <!-- Telecom -->
+    <div class="card"><h3>TEC / MTCTE</h3><a href="https://seyecs.com/services/product-compliance/tec-mtcte/">View</a></div>
+    <div class="card"><h3>WPC ETA Approval</h3><a href="https://seyecs.com/services/product-compliance/wpc-eta/">View</a></div>
 
-    <div class="card">
-      <h3>BEE Certification</h3>
-      <a href="https://seyecs.com/services/product-compliance/bee-star-label/">Learn More</a>
-    </div>
+    <!-- Energy -->
+    <div class="card"><h3>BEE Certification</h3><a href="https://seyecs.com/services/product-compliance/bee-star-label/">View</a></div>
 
-    <div class="card">
-      <h3>CDSCO Registration</h3>
-      <a href="https://seyecs.com/services/cdsco-registration/">Learn More</a>
-    </div>
+    <!-- CDSCO -->
+    <div class="card"><h3>CDSCO Registration</h3><a href="https://seyecs.com/services/cdsco-registration/">View</a></div>
 
-    <div class="card">
-      <h3>LMPC Registration</h3>
-      <a href="https://seyecs.com/services/legal-metrology/lmpc-registration/">Learn More</a>
-    </div>
+    <!-- Legal -->
+    <div class="card"><h3>LMPC Registration</h3><a href="https://seyecs.com/services/legal-metrology/lmpc-registration/">View</a></div>
 
-    <div class="card">
-      <h3>FSSAI License</h3>
-      <a href="https://seyecs.com/services/fssai-registration/">Learn More</a>
-    </div>
+    <!-- Food -->
+    <div class="card"><h3>FSSAI License</h3><a href="https://seyecs.com/services/fssai-registration/">View</a></div>
+
+    <!-- Business -->
+    <div class="card"><h3>ISO Certification</h3><a href="https://seyecs.com/services/business-registration/iso-certification/">View</a></div>
+    <div class="card"><h3>GST Registration</h3><a href="https://seyecs.com/services/business-registration/gst-registration/">View</a></div>
+    <div class="card"><h3>Trademark Registration</h3><a href="https://seyecs.com/services/business-registration/trademark-registration/">View</a></div>
+
+    <!-- Import -->
+    <div class="card"><h3>IEC Certificate</h3><a href="https://seyecs.com/services/import-export-compliance/iec-certificate/">View</a></div>
+    <div class="card"><h3>SCOMET Certification</h3><a href="https://seyecs.com/services/import-export-compliance/scomet/">View</a></div>
 
   </div>
 </section>
 
 <section>
   <h2>💡 Why Choose SEYECS?</h2>
-  <p>✔ Fast approvals & expert support<br>
-     ✔ End-to-end compliance solutions<br>
-     ✔ Trusted by manufacturers & importers</p>
+  <p>
+    ✔ Fast approvals <br>
+    ✔ End-to-end compliance <br>
+    ✔ Expert consultation <br>
+    ✔ Trusted across India
+  </p>
 </section>
 
 <section>
-  <h2>📞 Contact Us</h2>
+  <h2>📞 Contact</h2>
   <p>Email: contact@seyecs.com</p>
   <p>Phone: +91-9625369071</p>
   <a class="btn" href="https://seyecs.com/">Visit Official Website</a>
