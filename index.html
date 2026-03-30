@@ -199,5 +199,40 @@
 
 </footer>
 
+  <!-- FLOATING CTA BUTTONS START -->
+<style>
+  .floating-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 999;
+  }
+
+  .float-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .whatsapp { background: #25D366; }
+  .call { background: #0d6efd; }
+</style>
+
+<div class="floating-container">
+  <a href="https://wa.me/919625369071" target="_blank" class="float-btn whatsapp">💬</a>
+  <a href="tel:+919625369071" class="float-btn call">📞</a>
+</div>
+<!-- FLOATING CTA BUTTONS END -->
+
 </body>
 </html>
