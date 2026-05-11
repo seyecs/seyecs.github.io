@@ -82,7 +82,7 @@ Silvereye Certifications provides end-to-end regulatory compliance services for 
 ---
 
 ## 🌐 Knowledge Centre
-- Blog: https://seyecs.com/blog/  
+- Blog:(https://blogs.seyecs.com/) 
 - Regulatory Updates: https://seyecs.com/regulatory-updates/  
 - Product Newsletter: https://seyecs.com/product-newsletter/  
 
